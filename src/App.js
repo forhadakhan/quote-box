@@ -5,7 +5,7 @@ import QuoteBox from './components/QuoteBox';
 
 function App() {
     return (
-      <div className="App">
+      <div className="App bg-dark-subtle">
         <QuoteBox />
       </div>
     );

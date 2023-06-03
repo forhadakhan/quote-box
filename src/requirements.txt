@@ -1,0 +1,2 @@
+npm install html2canvas
+npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons

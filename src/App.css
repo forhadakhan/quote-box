@@ -1,3 +1,60 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+@media (max-width: 576px) { /* Small devices */
+    #quote-box {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 991px) { /* Medium devices */
+    #quote-box {
+      width: 60%;
+    }
+  }
+  
+  @media (min-width: 992px) { /* Large devices */
+    #quote-box {
+      width: 50%;
+    }
+  }
+  
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+#quote-box {
+  width: 400px; /* Adjust the width to your desired size */
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#text {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#author {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#action-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin: 0 5px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+}
