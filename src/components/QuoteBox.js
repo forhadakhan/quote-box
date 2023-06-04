@@ -73,11 +73,11 @@ class QuoteBox extends React.Component {
                 <div className="btn-group">
                   <button id="new-quote" className="btn btn-primary m-1" onClick={this.newQuote}>
                     <FontAwesomeIcon icon={faPlus} className="mr-2" /> &nbsp; 
-                    New Quote
+                    New
                   </button>
                   <button id="save-quote" className="btn btn-primary m-1" onClick={this.saveQuote}>
                     <FontAwesomeIcon icon={faDownload} className="mr-5" />  &nbsp;
-                    Save Quote
+                    Save
                   </button>
                   <a
                     id="tweet-quote"
@@ -87,7 +87,7 @@ class QuoteBox extends React.Component {
                     rel="noopener noreferrer"
                   >
                     <FontAwesomeIcon icon={faTwitter} className="mr-2" /> &nbsp; 
-                    Tweet Quote
+                    Tweet
                   </a>
                 </div>
               </div>
