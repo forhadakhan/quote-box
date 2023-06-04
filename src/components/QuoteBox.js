@@ -96,7 +96,8 @@ class QuoteBox extends React.Component {
               <div className="col text-center">
                 <p className='font-monospace text-dark-emphasis text-opacity-50'>A random quote box.</p> 
                 <p className='font-monospace text-dark-emphasis text-opacity-25'>
-                    Code by <a href='https://github.com/forhadakhan'>@forhadakhan</a>    
+                    Code by <a href='https://github.com/forhadakhan'>@forhadakhan</a> | 
+                    <a href='https://github.com/forhadakhan/quote-box'>code repo</a> 
                 </p> 
               </div>
             </div>
